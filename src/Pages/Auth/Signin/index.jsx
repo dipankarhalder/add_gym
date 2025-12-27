@@ -34,6 +34,10 @@ const MESSAGES = {
     title: "Successfully Submitted",
     description: "You are a authorized user.",
   },
+  error: {
+    title: "Login Error",
+    description: "Please enter a valid email and password",
+  },
 };
 
 const signinSchema = yup.object({
@@ -74,13 +78,20 @@ export const SigninPage = () => {
   ];
 
   const onSubmit = (data) => {
-    console.log("Form Data:", data);
-    addToast({
-      type: "success",
-      title: MESSAGES.success.title,
-      description: MESSAGES.success.description,
-    });
-    navigate(paths.OTP);
+    if (data.email === "addgym@gmail.com" && data.password === "AddGym@1234") {
+      addToast({
+        type: "success",
+        title: MESSAGES.success.title,
+        description: MESSAGES.success.description,
+      });
+      navigate(paths.OTP);
+    } else {
+      addToast({
+        type: "error",
+        title: MESSAGES.error.title,
+        description: MESSAGES.error.description,
+      });
+    }
   };
 
   return (
@@ -115,10 +126,9 @@ export const SigninPage = () => {
           <AppBtnField>
             <Button>Continue</Button>
           </AppBtnField>
-          <AppLinkCover>
-            <p>New to Arunodaya University?</p>
-            <Link to={paths.REGISTER}>Create an account</Link>
-          </AppLinkCover>
+          <p style={{ fontSize: "13px", color: "#aaaaaa" }}>
+            addgym@gmail.com || AddGym@1234
+          </p>
         </AppFormSignin>
       </AppInsideSignin>
     </AppSignin>

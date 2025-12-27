@@ -13,16 +13,22 @@ export const AppSignin = styled.div`
 export const AppInsideSignin = styled.div`
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 460px;
+  position: relative;
+  z-index: 1;
+  padding: 30px 42px;
+  border-radius: 14px;
+  box-shadow: -1px 2px 7px rgba(0, 0, 0, 0.15);
+  background: ${({ theme }) => theme.colors.white};
 
   & > span.app_logo {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 26px;
 
     & > img {
-      width: 160px;
+      width: 120px;
       height: auto;
     }
   }
@@ -70,7 +76,7 @@ export const AppCheckField = styled.div`
 `;
 
 export const AppBtnField = styled.div`
-  margin: 26px 0 60px;
+  margin: 26px 0 10px;
   display: flex;
   width: 100%;
   justify-content: center;

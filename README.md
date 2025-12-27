@@ -1,3 +1,1 @@
-# Arunodaya University
-
-University Management Application
+# AddGym Admin
