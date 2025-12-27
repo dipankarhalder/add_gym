@@ -51,16 +51,8 @@ export const router = createBrowserRouter([
         element: <SigninPage />,
       },
       {
-        path: paths.REGISTER,
-        element: <SignupPage />,
-      },
-      {
         path: paths.OTP,
         element: <OtpVerificationPage />,
-      },
-      {
-        path: paths.FORGOT,
-        element: <ForgotPasswordPage />,
       },
     ],
   },

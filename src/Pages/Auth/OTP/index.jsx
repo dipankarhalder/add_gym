@@ -29,6 +29,10 @@ const MESSAGES = {
     title: "OTP Verified!",
     description: "OTP matched successfully.",
   },
+  error: {
+    title: "OTP Error",
+    description: "Please enter a valid OTP",
+  },
 };
 
 const otpSchema = yup.object({
@@ -96,13 +100,20 @@ export const OtpVerificationPage = () => {
   };
 
   const onSubmit = (data) => {
-    console.log("OTP Submitted:", data);
-    addToast({
-      type: "success",
-      title: MESSAGES.success.title,
-      description: MESSAGES.success.description,
-    });
-    navigate(paths.APPS);
+    if (data.otp === "2234") {
+      addToast({
+        type: "success",
+        title: MESSAGES.success.title,
+        description: MESSAGES.success.description,
+      });
+      navigate(paths.APPS);
+    } else {
+      addToast({
+        type: "error",
+        title: MESSAGES.error.title,
+        description: MESSAGES.error.description,
+      });
+    }
   };
 
   return (
@@ -121,6 +132,9 @@ export const OtpVerificationPage = () => {
           {errors.otp && (
             <AppOtpErrorMessage>{errors.otp.message}</AppOtpErrorMessage>
           )}
+          <p style={{ fontSize: "13px", color: "#aaaaaa" }}>
+            Demo OTP: &nbsp; 2234
+          </p>
           <AppBtnField>
             <Button>OTP Verify</Button>
           </AppBtnField>
