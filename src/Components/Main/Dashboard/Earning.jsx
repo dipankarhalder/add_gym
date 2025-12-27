@@ -107,7 +107,7 @@ export const Earning = () => {
       {
         label: "Earning",
         data: financeData[selectedYear].map((item) => item.earning),
-        backgroundColor: "rgba(16, 156, 35, 1)",
+        backgroundColor: "#1E66D0",
         borderRadius: 2,
         barThickness: 10,
         categoryPercentage: 0.6,
@@ -116,7 +116,7 @@ export const Earning = () => {
       {
         label: "Expense",
         data: financeData[selectedYear].map((item) => item.expense),
-        backgroundColor: "#FF9F40",
+        backgroundColor: "#16B4BE",
         borderRadius: 2,
         barThickness: 10,
         categoryPercentage: 0.6,

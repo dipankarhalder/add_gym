@@ -118,15 +118,15 @@ export const Revenue = () => {
             0,
             chartArea.bottom
           );
-          gradient.addColorStop(0, "rgba(116, 247, 144, 0.4)");
-          gradient.addColorStop(1, "rgba(75,192,192,0.05)");
+          gradient.addColorStop(0, "#FF4F4F");
+          gradient.addColorStop(1, "rgba(255,255,255,0.05)");
           return gradient;
         },
-        borderColor: "rgba(21, 135, 36, 1)",
+        borderColor: "#FF4F4F",
         borderWidth: 2,
         tension: 0.3,
         pointBackgroundColor: "white",
-        pointBorderColor: "rgba(21, 135, 36, 1)",
+        pointBorderColor: "#FF4F4F",
         pointRadius: 4,
         pointBorderWidth: 2,
         pointHoverRadius: 4,
