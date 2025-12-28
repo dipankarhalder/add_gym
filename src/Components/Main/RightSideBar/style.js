@@ -79,7 +79,6 @@ export const AppRightSideBar = styled.div`
   .app_schedule_items {
     display: flex;
     flex-direction: column;
-    margin-top: 14px;
     padding: 10px 12px;
     border-radius: 8px;
     background: ${({ theme }) => theme.colors.white};
@@ -128,13 +127,15 @@ export const AppRightSideBar = styled.div`
         display: flex;
         width: 100%;
         flex-direction: column;
-        gap: 20px;
+        gap: 26px;
         margin-top: 20px;
 
         li {
           width: 100%;
           display: flex;
           flex-wrap: wrap;
+          position: relative;
+          cursor: pointer;
 
           .app_sch_time {
             display: flex;
@@ -145,6 +146,7 @@ export const AppRightSideBar = styled.div`
             border-right: 1px solid #ecf0f4;
 
             & > span {
+              text-align: right;
               font-weight: 600;
               font-size: 10px;
               color: #898989ff;
@@ -197,7 +199,7 @@ export const AppRightSideBar = styled.div`
               display: flex;
               width: 100%;
               align-items: center;
-              margin-top: 8px;
+              margin-top: 5px;
               gap: 5px;
 
               & > span {
@@ -218,6 +220,22 @@ export const AppRightSideBar = styled.div`
                 color: ${({ theme }) => theme.colors.info};
               }
             }
+          }
+
+          .app_view_details {
+            position: absolute;
+            width 20px;
+            height: 20px;
+            right: 0px;
+            top: 50%;
+            opacity: 0.2;
+            transform: translateY(-50%);
+            transition: 0.5s;
+          }
+
+          &:hover .app_view_details {
+            opacity: 0.8;
+            transition: 0.5s;
           }
         }
       }
