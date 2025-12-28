@@ -91,12 +91,18 @@ export const AppDropDownItem = styled.div`
 
 export const AppLoginTime = styled.div`
   display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
 
   & > span {
     height: 32px;
     line-height: 34px;
     font-size: 13px;
     font-weight: 600;
+    margin-left: 10px;
+    color: ${({ theme }) => theme.colors.blue};
   }
 `;
 

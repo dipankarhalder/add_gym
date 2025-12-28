@@ -45,7 +45,8 @@ export const TopBar = ({ location }) => {
           </AppDropDownItem>
         </AppLocationDropDown> */}
         <AppLoginTime>
-          <span>Last login: {getCurrentDateTime()}</span>
+          Last login:
+          <span>{getCurrentDateTime()}</span>
         </AppLoginTime>
       </AppMainLeftArea>
       <AppMainRightArea>

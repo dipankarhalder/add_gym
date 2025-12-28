@@ -12,8 +12,8 @@ export const AppMainCover = styled.div`
 export const AppBgSec = styled.div`
   position: absolute;
   top: 0px;
-  right: 0px;
-  width: 50%;
+  left: 0px;
+  width: 65%;
   height: 100vh;
   background: url(${(props) => props.$image});
   background-repeat: no-repeat;
