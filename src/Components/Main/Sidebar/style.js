@@ -16,8 +16,7 @@ export const AppSideBar = styled.div`
   overflow-y: auto;
   position: fixed;
   top: 0px;
-  ${backgroundColor("white")};
-  background-image: url("/sidebar.jpg");
+  background: ${({ theme }) => theme.colors.sidebar};
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -31,8 +30,9 @@ export const AppSidebarInside = styled.div`
 
   & > span {
     display: flex;
-    width: 100px;
-    margin-bottom: 30px;
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     & > svg {
       width: 100%;

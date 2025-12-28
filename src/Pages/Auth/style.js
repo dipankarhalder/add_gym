@@ -8,6 +8,7 @@ export const AppSignin = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  left: 15%;
 `;
 
 export const AppInsideSignin = styled.div`
