@@ -8,8 +8,14 @@
     "specialization": "Weight Training",
     "certification": "ACE Certified",
     "phone": "9XXXXXXXX1",
-    "desig": "app_secure",
-    "avl_time": ["7:30 AM", "9:45 AM", "11:00 AM"]
+    "desig": "trainer",
+    "avl_time": ["6:00 AM", "7:00 PM"],
+    "address": {
+      "street": "12, Lajpat Nagar II",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110024"
+    }
   },
   {
     "trainer_id": "T002",
@@ -17,11 +23,17 @@
     "gender": "Female",
     "city": "Mumbai",
     "experience_years": 4,
-    "specialization": "Fat Loss & Cardio",
-    "certification": "ISSA Certified",
+    "specialization": "Clinical Dietitian",
+    "certification": "MSc Nutrition",
     "phone": "9XXXXXXXX2",
-    "desig": "app_success",
-    "avl_time": ["11:00 AM"]
+    "desig": "dietitian",
+    "avl_time": ["10:00 AM"],
+    "address": {
+      "street": "Flat 8, Andheri West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400058"
+    }
   },
   {
     "trainer_id": "T003",
@@ -32,8 +44,14 @@
     "specialization": "Bodybuilding",
     "certification": "K11 Academy",
     "phone": "9XXXXXXXX3",
-    "desig": "app_accept",
-    "avl_time": ["7:30 AM", "11:00 AM"]
+    "desig": "trainer",
+    "avl_time": ["5:30 AM"],
+    "address": {
+      "street": "45, Navrangpura",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380009"
+    }
   },
   {
     "trainer_id": "T004",
@@ -41,11 +59,17 @@
     "gender": "Female",
     "city": "Chennai",
     "experience_years": 5,
-    "specialization": "Yoga & Flexibility",
-    "certification": "Yoga Alliance India",
+    "specialization": "Sports Nutrition",
+    "certification": "Certified Sports Dietitian",
     "phone": "9XXXXXXXX4",
-    "desig": "app_success",
-    "avl_time": ["7:30 AM", "9:45 AM", "11:00 AM"]
+    "desig": "dietitian",
+    "avl_time": ["11:00 AM"],
+    "address": {
+      "street": "18, T Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pincode": "600017"
+    }
   },
   {
     "trainer_id": "T005",
@@ -56,8 +80,14 @@
     "specialization": "Strength Training",
     "certification": "NSCA Certified",
     "phone": "9XXXXXXXX5",
-    "desig": "app_secure",
-    "avl_time": ["2:00 PM"]
+    "desig": "trainer",
+    "avl_time": ["6:30 AM"],
+    "address": {
+      "street": "22, Gomti Nagar",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "pincode": "226010"
+    }
   },
   {
     "trainer_id": "T006",
@@ -65,11 +95,17 @@
     "gender": "Female",
     "city": "Pune",
     "experience_years": 3,
-    "specialization": "Functional Training",
-    "certification": "ISSA Certified",
+    "specialization": "Weight Loss Diet",
+    "certification": "ISSA Nutrition",
     "phone": "9XXXXXXXX6",
-    "desig": "app_secure",
-    "avl_time": ["8:45 AM", "11:00 AM"]
+    "desig": "dietitian",
+    "avl_time": ["2:00 PM"],
+    "address": {
+      "street": "10, Kothrud",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411038"
+    }
   },
   {
     "trainer_id": "T007",
@@ -80,8 +116,14 @@
     "specialization": "CrossFit",
     "certification": "CrossFit Level 1",
     "phone": "9XXXXXXXX7",
-    "desig": "app_success",
-    "avl_time": ["7:30 AM", "9:45 AM", "11:00 AM"]
+    "desig": "trainer",
+    "avl_time": ["7:00 AM"],
+    "address": {
+      "street": "35, Sector 22",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "pincode": "160022"
+    }
   },
   {
     "trainer_id": "T008",
@@ -89,11 +131,17 @@
     "gender": "Female",
     "city": "Jaipur",
     "experience_years": 4,
-    "specialization": "Zumba & Aerobics",
-    "certification": "Zumba Fitness License",
+    "specialization": "Diabetic Diet",
+    "certification": "RD India",
     "phone": "9XXXXXXXX8",
-    "desig": "app_accept",
-    "avl_time": ["9:45 AM"]
+    "desig": "dietitian",
+    "avl_time": ["12:30 PM"],
+    "address": {
+      "street": "14, Vaishali Nagar",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "pincode": "302021"
+    }
   },
   {
     "trainer_id": "T009",
@@ -102,10 +150,16 @@
     "city": "Hyderabad",
     "experience_years": 10,
     "specialization": "Powerlifting",
-    "certification": "K11 Powerlifting Coach",
+    "certification": "K11 Coach",
     "phone": "9XXXXXXXX9",
-    "desig": "app_accept",
-    "avl_time": ["11:00 AM", "3:45 AM"]
+    "desig": "trainer",
+    "avl_time": ["5:00 AM"],
+    "address": {
+      "street": "7, Madhapur",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500081"
+    }
   },
   {
     "trainer_id": "T010",
@@ -113,11 +167,17 @@
     "gender": "Female",
     "city": "Kochi",
     "experience_years": 5,
-    "specialization": "Weight Loss",
-    "certification": "ACE Certified",
+    "specialization": "Ayurvedic Nutrition",
+    "certification": "BSc Nutrition",
     "phone": "9XXXXXXXX0",
-    "desig": "app_secure",
-    "avl_time": ["9:45 AM", "9:45 AM"]
+    "desig": "dietitian",
+    "avl_time": ["3:00 PM"],
+    "address": {
+      "street": "21, Kakkanad",
+      "city": "Kochi",
+      "state": "Kerala",
+      "pincode": "682030"
+    }
   },
   {
     "trainer_id": "T011",
@@ -128,20 +188,32 @@
     "specialization": "Personal Training",
     "certification": "ISSA Elite Trainer",
     "phone": "8XXXXXXXX1",
-    "desig": "app_success",
-    "avl_time": ["4:45 PM"]
+    "desig": "trainer",
+    "avl_time": ["4:45 PM"],
+    "address": {
+      "street": "9, Karol Bagh",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110005"
+    }
   },
   {
     "trainer_id": "T012",
     "name": "Anjali Mehta",
     "gender": "Female",
     "city": "Indore",
-    "experience_years": 2,
-    "specialization": "Beginner Fitness",
-    "certification": "K11 Academy",
+    "experience_years": 3,
+    "specialization": "Weight Loss Nutrition",
+    "certification": "MSc Nutrition",
     "phone": "8XXXXXXXX2",
-    "desig": "app_accept",
-    "avl_time": ["7:30 AM"]
+    "desig": "dietitian",
+    "avl_time": ["11:30 AM"],
+    "address": {
+      "street": "6, Vijay Nagar",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "pincode": "452010"
+    }
   },
   {
     "trainer_id": "T013",
@@ -152,8 +224,14 @@
     "specialization": "Muscle Gain",
     "certification": "ISSA Certified",
     "phone": "8XXXXXXXX3",
-    "desig": "app_secure",
-    "avl_time": ["7:30 AM", "9:45 AM"]
+    "desig": "trainer",
+    "avl_time": ["6:15 AM"],
+    "address": {
+      "street": "3, Kankarbagh",
+      "city": "Patna",
+      "state": "Bihar",
+      "pincode": "800020"
+    }
   },
   {
     "trainer_id": "T014",
@@ -164,8 +242,14 @@
     "specialization": "HIIT Training",
     "certification": "ACE Certified",
     "phone": "8XXXXXXXX4",
-    "desig": "app_accept",
-    "avl_time": ["7:30 AM", "11:00 AM"]
+    "desig": "trainer",
+    "avl_time": ["7:30 AM"],
+    "address": {
+      "street": "11, MP Nagar Zone 2",
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "pincode": "462011"
+    }
   },
   {
     "trainer_id": "T015",
@@ -176,7 +260,463 @@
     "specialization": "Rehabilitation Fitness",
     "certification": "NASM Corrective Exercise",
     "phone": "8XXXXXXXX5",
-    "desig": "app_accept",
-    "avl_time": ["9:45 AM"]
+    "desig": "trainer",
+    "avl_time": ["5:45 PM"],
+    "address": {
+      "street": "28, Whitefield",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560066"
+    }
+  },
+  {
+    "trainer_id": "T016",
+    "name": "Shweta Kulkarni",
+    "gender": "Female",
+    "city": "Pune",
+    "experience_years": 4,
+    "specialization": "PCOS Diet",
+    "certification": "Certified Nutritionist",
+    "phone": "8XXXXXXXX6",
+    "desig": "dietitian",
+    "avl_time": ["1:00 PM"],
+    "address": {
+      "street": "10, Kothrud",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411038"
+    }
+  },
+  {
+    "trainer_id": "T017",
+    "name": "Nitin Chawla",
+    "gender": "Male",
+    "city": "Noida",
+    "experience_years": 8,
+    "specialization": "Functional Training",
+    "certification": "K11 Academy",
+    "phone": "8XXXXXXXX7",
+    "desig": "trainer",
+    "avl_time": ["6:00 AM"],
+    "address": {
+      "street": "C-12, Sector 62",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201309"
+    }
+  },
+  {
+    "trainer_id": "T018",
+    "name": "Ritu Bansal",
+    "gender": "Female",
+    "city": "Delhi",
+    "experience_years": 6,
+    "specialization": "Clinical Nutrition",
+    "certification": "RD India",
+    "phone": "8XXXXXXXX8",
+    "desig": "dietitian",
+    "avl_time": ["12:00 PM"],
+    "address": {
+      "street": "9, Karol Bagh",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pincode": "110005"
+    }
+  },
+  {
+    "trainer_id": "T019",
+    "name": "Sanjay Mishra",
+    "gender": "Male",
+    "city": "Kanpur",
+    "experience_years": 5,
+    "specialization": "Strength Conditioning",
+    "certification": "NSCA",
+    "phone": "8XXXXXXXX9",
+    "desig": "trainer",
+    "avl_time": ["7:00 PM"],
+    "address": {
+      "street": "45, Kakadeo",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "pincode": "208025"
+    }
+  },
+  {
+    "trainer_id": "T020",
+    "name": "Ayesha Khan",
+    "gender": "Female",
+    "city": "Hyderabad",
+    "experience_years": 4,
+    "specialization": "Weight Management",
+    "certification": "ISSA Nutrition",
+    "phone": "7XXXXXXXX0",
+    "desig": "dietitian",
+    "avl_time": ["4:00 PM"],
+    "address": {
+      "street": "7, Madhapur",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500081"
+    }
+  },
+  {
+    "trainer_id": "T021",
+    "name": "Kunal Deshpande",
+    "gender": "Male",
+    "city": "Nagpur",
+    "experience_years": 6,
+    "specialization": "Cross Training",
+    "certification": "CrossFit L1",
+    "phone": "7XXXXXXXX1",
+    "desig": "trainer",
+    "avl_time": ["6:45 AM"],
+    "address": {
+      "street": "22, Dharampeth",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "pincode": "440010"
+    }
+  },
+  {
+    "trainer_id": "T022",
+    "name": "Simran Kaur",
+    "gender": "Female",
+    "city": "Amritsar",
+    "experience_years": 5,
+    "specialization": "Prenatal Diet",
+    "certification": "MSc Dietetics",
+    "phone": "7XXXXXXXX2",
+    "desig": "dietitian",
+    "avl_time": ["10:30 AM"],
+    "address": {
+      "street": "18, Ranjit Avenue",
+      "city": "Amritsar",
+      "state": "Punjab",
+      "pincode": "143001"
+    }
+  },
+  {
+    "trainer_id": "T023",
+    "name": "Deepak Rawat",
+    "gender": "Male",
+    "city": "Dehradun",
+    "experience_years": 7,
+    "specialization": "Athletic Training",
+    "certification": "ISSA Certified",
+    "phone": "7XXXXXXXX3",
+    "desig": "trainer",
+    "avl_time": ["5:30 AM"],
+    "address": {
+      "street": "14, Rajpur Road",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "pincode": "248001"
+    }
+  },
+  {
+    "trainer_id": "T024",
+    "name": "Nisha Agarwal",
+    "gender": "Female",
+    "city": "Jaipur",
+    "experience_years": 4,
+    "specialization": "Thyroid Diet",
+    "certification": "Certified Diet Coach",
+    "phone": "7XXXXXXXX4",
+    "desig": "dietitian",
+    "avl_time": ["2:30 PM"],
+    "address": {
+      "street": "14, Vaishali Nagar",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "pincode": "302021"
+    }
+  },
+  {
+    "trainer_id": "T025",
+    "name": "Rohit Kulkarni",
+    "gender": "Male",
+    "city": "Pune",
+    "experience_years": 9,
+    "specialization": "Powerlifting",
+    "certification": "K11 Power Coach",
+    "phone": "7XXXXXXXX5",
+    "desig": "trainer",
+    "avl_time": ["6:00 PM"],
+    "address": {
+      "street": "10, Kothrud",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411038"
+    }
+  },
+  {
+    "trainer_id": "T026",
+    "name": "Isha Malhotra",
+    "gender": "Female",
+    "city": "Gurgaon",
+    "experience_years": 5,
+    "specialization": "Corporate Wellness",
+    "certification": "Wellness Coach",
+    "phone": "7XXXXXXXX6",
+    "desig": "dietitian",
+    "avl_time": ["1:30 PM"],
+    "address": {
+      "street": "B-45, DLF Phase 3",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "pincode": "122010"
+    }
+  },
+  {
+    "trainer_id": "T027",
+    "name": "Manoj Verma",
+    "gender": "Male",
+    "city": "Faridabad",
+    "experience_years": 6,
+    "specialization": "General Fitness",
+    "certification": "ACE Certified",
+    "phone": "7XXXXXXXX7",
+    "desig": "trainer",
+    "avl_time": ["7:15 AM"],
+    "address": {
+      "street": "21, Sector 15",
+      "city": "Faridabad",
+      "state": "Haryana",
+      "pincode": "121007"
+    }
+  },
+  {
+    "trainer_id": "T028",
+    "name": "Preeti Joshi",
+    "gender": "Female",
+    "city": "Udaipur",
+    "experience_years": 3,
+    "specialization": "Detox Nutrition",
+    "certification": "Holistic Nutritionist",
+    "phone": "7XXXXXXXX8",
+    "desig": "dietitian",
+    "avl_time": ["11:00 AM"],
+    "address": {
+      "street": "5, Fatehpura",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "pincode": "313001"
+    }
+  },
+  {
+    "trainer_id": "T029",
+    "name": "Ajay Nair",
+    "gender": "Male",
+    "city": "Trivandrum",
+    "experience_years": 8,
+    "specialization": "Mobility Training",
+    "certification": "NASM",
+    "phone": "7XXXXXXXX9",
+    "desig": "trainer",
+    "avl_time": ["6:30 AM"],
+    "address": {
+      "street": "19, Kowdiar",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "pincode": "695003"
+    }
+  },
+  {
+    "trainer_id": "T030",
+    "name": "Rashmi Shetty",
+    "gender": "Female",
+    "city": "Mangaluru",
+    "experience_years": 6,
+    "specialization": "Gut Health",
+    "certification": "Clinical Nutritionist",
+    "phone": "6XXXXXXXX0",
+    "desig": "dietitian",
+    "avl_time": ["3:30 PM"],
+    "address": {
+      "street": "8, Hampankatta",
+      "city": "Mangaluru",
+      "state": "Karnataka",
+      "pincode": "575001"
+    }
+  },
+  {
+    "trainer_id": "T031",
+    "name": "Varun Saxena",
+    "gender": "Male",
+    "city": "Meerut",
+    "experience_years": 5,
+    "specialization": "Strength & Conditioning",
+    "certification": "ISSA",
+    "phone": "6XXXXXXXX1",
+    "desig": "trainer",
+    "avl_time": ["6:00 PM"],
+    "address": {
+      "street": "32, Shastri Nagar",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "pincode": "250004"
+    }
+  },
+  {
+    "trainer_id": "T032",
+    "name": "Pallavi Desai",
+    "gender": "Female",
+    "city": "Surat",
+    "experience_years": 4,
+    "specialization": "Lifestyle Nutrition",
+    "certification": "Nutrition Coach",
+    "phone": "6XXXXXXXX2",
+    "desig": "dietitian",
+    "avl_time": ["12:15 PM"],
+    "address": {
+      "street": "11, Adajan",
+      "city": "Surat",
+      "state": "Gujarat",
+      "pincode": "395009"
+    }
+  },
+  {
+    "trainer_id": "T033",
+    "name": "Gaurav Thakur",
+    "gender": "Male",
+    "city": "Shimla",
+    "experience_years": 7,
+    "specialization": "Endurance Training",
+    "certification": "ACE",
+    "phone": "6XXXXXXXX3",
+    "desig": "trainer",
+    "avl_time": ["6:45 AM"],
+    "address": {
+      "street": "Mall Road",
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "pincode": "171001"
+    }
+  },
+  {
+    "trainer_id": "T034",
+    "name": "Sonali Patil",
+    "gender": "Female",
+    "city": "Kolhapur",
+    "experience_years": 5,
+    "specialization": "Postpartum Diet",
+    "certification": "MSc Dietetics",
+    "phone": "6XXXXXXXX4",
+    "desig": "dietitian",
+    "avl_time": ["1:45 PM"],
+    "address": {
+      "street": "17, Shahupuri",
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "pincode": "416001"
+    }
+  },
+  {
+    "trainer_id": "T035",
+    "name": "Imran Sheikh",
+    "gender": "Male",
+    "city": "Aurangabad",
+    "experience_years": 6,
+    "specialization": "Fat Loss Training",
+    "certification": "ISSA",
+    "phone": "6XXXXXXXX5",
+    "desig": "trainer",
+    "avl_time": ["7:00 PM"],
+    "address": {
+      "street": "9, CIDCO",
+      "city": "Aurangabad",
+      "state": "Maharashtra",
+      "pincode": "431003"
+    }
+  },
+  {
+    "trainer_id": "T036",
+    "name": "Kiran Das",
+    "gender": "Female",
+    "city": "Guwahati",
+    "experience_years": 4,
+    "specialization": "Balanced Diet Plans",
+    "certification": "Certified Nutritionist",
+    "phone": "6XXXXXXXX6",
+    "desig": "dietitian",
+    "avl_time": ["11:45 AM"],
+    "address": {
+      "street": "Zoo Road",
+      "city": "Guwahati",
+      "state": "Assam",
+      "pincode": "781024"
+    }
+  },
+  {
+    "trainer_id": "T037",
+    "name": "Ravi Teja",
+    "gender": "Male",
+    "city": "Vijayawada",
+    "experience_years": 7,
+    "specialization": "Strength Training",
+    "certification": "NSCA",
+    "phone": "6XXXXXXXX7",
+    "desig": "trainer",
+    "avl_time": ["5:30 AM"],
+    "address": {
+      "street": "MG Road",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "pincode": "520010"
+    }
+  },
+  {
+    "trainer_id": "T038",
+    "name": "Lavanya Rao",
+    "gender": "Female",
+    "city": "Vizag",
+    "experience_years": 5,
+    "specialization": "Heart Healthy Diet",
+    "certification": "Clinical Nutrition",
+    "phone": "6XXXXXXXX8",
+    "desig": "dietitian",
+    "avl_time": ["2:00 PM"],
+    "address": {
+      "street": "Beach Road",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "pincode": "530002"
+    }
+  },
+  {
+    "trainer_id": "T039",
+    "name": "Siddharth Jain",
+    "gender": "Male",
+    "city": "Ujjain",
+    "experience_years": 6,
+    "specialization": "Functional Fitness",
+    "certification": "K11",
+    "phone": "6XXXXXXXX9",
+    "desig": "trainer",
+    "avl_time": ["6:15 PM"],
+    "address": {
+      "street": "Freeganj",
+      "city": "Ujjain",
+      "state": "Madhya Pradesh",
+      "pincode": "456010"
+    }
+  },
+  {
+    "trainer_id": "T040",
+    "name": "Neelam Choudhary",
+    "gender": "Female",
+    "city": "Ajmer",
+    "experience_years": 4,
+    "specialization": "Vegetarian Nutrition",
+    "certification": "Certified Diet Planner",
+    "phone": "5XXXXXXXX0",
+    "desig": "dietitian",
+    "avl_time": ["12:45 PM"],
+    "address": {
+      "street": "Civil Lines",
+      "city": "Ajmer",
+      "state": "Rajasthan",
+      "pincode": "305001"
+    }
   }
 ]

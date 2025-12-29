@@ -31,7 +31,7 @@ export const RightSideBar = () => {
         <div className="app_schedule_list_cover">
           <h4>{formattedDate}</h4>
           <ul>
-            {trainerData.map((item) => (
+            {trainerData.slice(5, 17).map((item) => (
               <li key={item.trainer_id}>
                 <div className="app_sch_time">
                   {item.avl_time.map((itm, idx) => (

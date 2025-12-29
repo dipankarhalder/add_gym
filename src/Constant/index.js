@@ -47,7 +47,7 @@ export const paths = {
   HOSTEL: "hostel",
   LABORATORY: "laboratory",
   LIBRARY: "library",
-  TEACHER: "teachers",
+  TEACHER: "trainers",
   STUFF: "stuffs",
   HUMAN: "human-resources",
   STUDYMAT: "study-materials",
