@@ -1,5 +1,12 @@
 import { Rupees, Profile, Teams, Members } from "../../../Shared/Icons";
 
+function formatMonthYear() {
+  return new Date().toLocaleString("en-US", {
+    month: "short",
+    year: "numeric",
+  });
+}
+
 export const Overview = () => {
   return (
     <div className="app_init_dashboard">
@@ -10,7 +17,7 @@ export const Overview = () => {
             <p>Revenue Overview</p>
             <div className="app_icontext">
               <h6>Rs. 9,500,010 /-</h6>
-              <span>Dec 2025</span>
+              <span>{formatMonthYear()}</span>
             </div>
           </div>
         </li>
@@ -20,7 +27,7 @@ export const Overview = () => {
             <p>Overall Expenses</p>
             <div className="app_icontext">
               <h6>Rs. 680,230 /-</h6>
-              <span>Dec 2025</span>
+              <span>{formatMonthYear()}</span>
             </div>
           </div>
         </li>
