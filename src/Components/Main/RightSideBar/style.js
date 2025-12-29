@@ -178,12 +178,12 @@ export const AppRightSideBar = styled.div`
                 font-size: 9px;
                 border-radius: 6px;
 
-                &.app_success {
+                &.dietitian {
                   background: ${({ theme }) => theme.colors.successbg};
                   color: ${({ theme }) => theme.colors.success};
                 }
 
-                &.app_secure {
+                &.trainer {
                   background: ${({ theme }) => theme.colors.securedbg};
                   color: ${({ theme }) => theme.colors.secured};
                 }

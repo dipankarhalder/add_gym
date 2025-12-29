@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { TableInfo } from "../../../Shared/Table";
 import { AppMainLayoutCover, AppTableDataInformation } from "../style";
-import teacherData from "../../../data/teacher.json";
+import teacherData from "../../../data/trainer.json";
 
 const pagePaths = [
   { label: "Apps", path: "/" },
-  { label: "All Teachers", path: "/" },
+  { label: "All Trainers", path: "/" },
 ];
 
 export const TeachersPage = () => {
@@ -20,18 +20,16 @@ export const TeachersPage = () => {
   const teacherTableData =
     teacherData &&
     teacherData.map((item) => ({
-      id: item.id,
-      image: item.image,
+      id: item.trainer_id,
       name: item.name,
       gender: item.gender,
-      sec: item.section,
-      subject: item.subject,
-      class: item.class,
-      status: item.mobile % 2 === 0 ? true : false,
-      dob: item.DOB,
-      phone: item.mobile,
-      email: item.email,
-      address: item.address,
+      specialization: item.specialization,
+      exp: `${item.experience_years} yrs`,
+      certification: item.certification,
+      street: item.address.street,
+      city: item.address.city,
+      state: item.address.state,
+      pincode: item.address.pincode,
     }));
 
   const tableHeaders =
@@ -51,10 +49,9 @@ export const TeachersPage = () => {
       setVisibleColumns((prev) => ({
         ...prev,
         id: false,
-        sec: false,
-        dob: false,
-        gender: false,
-        address: false,
+        street: false,
+        certification: false,
+        pincode: false,
       }));
     };
 
@@ -67,22 +64,15 @@ export const TeachersPage = () => {
     <AppMainLayoutCover>
       <AppTableDataInformation>
         <TableInfo
-          pageTitle={"Manage Teachers"}
+          pageTitle={"Manage Trainers"}
           pagePath={pagePaths}
           data={teacherTableData}
-          addTextItem={"Add New Teacher"}
+          addTextItem={"Add Trainer"}
           handleAddItems={handleAddItems}
-          sortableColumns={[
-            "id",
-            "name",
-            "gender",
-            "status",
-            "phone",
-            "subject",
-          ]}
+          sortableColumns={["name", "gender", "city", "state"]}
           viewBtn={"name"}
           enableStatus={true}
-          filterableColumns={["subject", "gender", "status", "class"]}
+          filterableColumns={["gender", "city", "state"]}
           visibleColumns={visibleColumns}
           onToggleColumn={(col) =>
             setVisibleColumns((prev) => ({
