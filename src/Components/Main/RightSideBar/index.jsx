@@ -18,7 +18,7 @@ export const RightSideBar = () => {
             <img src="/avt.png" alt="profile" />
           </span>
           <div className="app_avatar_info">
-            <h6>Himadri C</h6>
+            <h6>Vishal Sharma</h6>
             <span>Admin</span>
           </div>
         </div>

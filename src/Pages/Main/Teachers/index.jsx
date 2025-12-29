@@ -23,6 +23,7 @@ export const TeachersPage = () => {
       id: item.trainer_id,
       name: item.name,
       gender: item.gender,
+      designation: item.desig === "trainer" ? "Trainer" : "Dietitian",
       specialization: item.specialization,
       exp: `${item.experience_years} yrs`,
       certification: item.certification,
@@ -52,6 +53,7 @@ export const TeachersPage = () => {
         street: false,
         certification: false,
         pincode: false,
+        exp: false,
       }));
     };
 
@@ -69,10 +71,17 @@ export const TeachersPage = () => {
           data={teacherTableData}
           addTextItem={"Add Trainer"}
           handleAddItems={handleAddItems}
-          sortableColumns={["name", "gender", "city", "state"]}
+          sortableColumns={[
+            "name",
+            "gender",
+            "designation",
+            "specialization",
+            "city",
+            "state",
+          ]}
           viewBtn={"name"}
           enableStatus={true}
-          filterableColumns={["gender", "city", "state"]}
+          filterableColumns={["gender", "designation", "city", "state"]}
           visibleColumns={visibleColumns}
           onToggleColumn={(col) =>
             setVisibleColumns((prev) => ({
