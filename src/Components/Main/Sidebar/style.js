@@ -85,6 +85,7 @@ export const AppSidebarLinkCover = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 30px;
 `;
 
 export const SidebarItem = styled.div`
