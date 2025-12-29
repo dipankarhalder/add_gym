@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { TableInfo } from "../../../Shared/Table";
 import { AppMainLayoutCover, AppTableDataInformation } from "../style";
-import locationData from "../../../data/location.json";
+import locationData from "../../../data/trainer.json";
 
 const pagePaths = [
   { label: "Apps", path: "/" },
-  { label: "All Campuses", path: "/" },
+  { label: "All Locations", path: "/" },
 ];
 
 export const LocationsPage = () => {
@@ -20,13 +20,11 @@ export const LocationsPage = () => {
   const locationTableData =
     locationData &&
     locationData.map((item) => ({
-      id: item.id,
-      name: item.location_name,
-      contact: item.contact_no,
-      tollfree: item.tollfree,
-      email: item.email,
-      status: item.status,
-      address: item.location_address,
+      id: item.trainer_id,
+      address: item.address.street,
+      city: item.city,
+      state: item.address.state,
+      pincode: item.address.pincode,
     }));
 
   const tableHeaders =
@@ -45,9 +43,6 @@ export const LocationsPage = () => {
     const handleResize = () => {
       setVisibleColumns((prev) => ({
         ...prev,
-        id: false,
-        status: false,
-        address: false,
       }));
     };
 
@@ -60,15 +55,15 @@ export const LocationsPage = () => {
     <AppMainLayoutCover>
       <AppTableDataInformation>
         <TableInfo
-          pageTitle={"Manage Campuses"}
+          pageTitle={"Manage Locations"}
           pagePath={pagePaths}
           data={locationTableData}
-          addTextItem={"Add New Campus"}
+          addTextItem={"Add Location"}
           handleAddItems={handleAddItems}
-          sortableColumns={["id", "name", "status"]}
+          sortableColumns={["city", "state"]}
           viewBtn={"name"}
           enableStatus={true}
-          filterableColumns={["status"]}
+          filterableColumns={["city", "state"]}
           visibleColumns={visibleColumns}
           onToggleColumn={(col) =>
             setVisibleColumns((prev) => ({
